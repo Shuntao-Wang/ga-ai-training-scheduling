@@ -48,10 +48,6 @@ $$
 - Contiguous and non-overlapping NPU allocation per task
 - $1 \leq x_t \leq N_{\mathrm{total}} - \mathrm{total\_npu}_t + 1$
 
-(The original MIP formulation also explicitly modeled per-stage communication paths and bandwidth timing — see `src/mip/` for details.)
-
-
-
 ## Dataset
 
 - **Scales**: 256 / 512 / 12,288 NPUs
@@ -60,8 +56,6 @@ $$
 - **Key fields per task**:
   - `task_id`, `total_npu`, `DP`, `cc` ("HD" or "Ring")
   - `com_pair`, `com_data` (communication pairs and volumes per stage)
-
-
 
 ## Genetic Algorithm Highlights
 
@@ -73,8 +67,6 @@ $$
 - **Selection**: Tournament
 - **Local Search**: Every 10 generations (improves solution quality)
 - **Independent Runs**: 10–15 runs, best solution retained
-
-
 
 ## Quick Start
 
