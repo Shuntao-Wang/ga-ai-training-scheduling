@@ -1,1 +1,15 @@
+# Virtual environments
+env/
+venv/
+.venv/
+.ENV/
+.env/
 
+# MATLAB
+# MATLAB auto-generated files
+*.asv        # autosave files
+*.mex*       # compiled mex files
+*.fig        # figure files if you don't want to version
+*.mdl        # Simulink models if any
+*.slx        # Simulink models if any
+*.m~         # temporary backup files
