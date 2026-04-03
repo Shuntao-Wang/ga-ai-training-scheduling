@@ -1,0 +1,6 @@
+Best Solution (scale = 512)
+Objective value: 2.7812
+
+Task  1: NPUs     1 →   256 (total_npu=256, DP=32, cc=HD)
+Task  2: NPUs   257 →   384 (total_npu=128, DP=16, cc=HD)
+Task  3: NPUs   385 →   448 (total_npu=64, DP=8, cc=Ring)

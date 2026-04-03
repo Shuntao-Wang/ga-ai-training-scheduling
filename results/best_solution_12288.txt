@@ -1,0 +1,9 @@
+Best Solution (scale = 12288)
+Objective value: 5.9629
+
+Task  1: NPUs     9 →  4104 (total_npu=4096, DP=512, cc=HD)
+Task  2: NPUs  4105 →  6152 (total_npu=2048, DP=256, cc=HD)
+Task  3: NPUs  6153 →  8200 (total_npu=2048, DP=256, cc=HD)
+Task  4: NPUs  8201 →  9224 (total_npu=1024, DP=128, cc=HD)
+Task  5: NPUs  9225 →  9736 (total_npu=512, DP=64, cc=Ring)
+Task  6: NPUs  9737 → 11784 (total_npu=2048, DP=256, cc=HD)

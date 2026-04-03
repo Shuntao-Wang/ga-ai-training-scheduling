@@ -1,0 +1,12 @@
+{
+  "scale": 12288,
+  "total_npu": 12288,
+  "population_size": 500,
+  "max_generations": 3000,
+  "num_runs": 15,
+  "crossover_fraction": 0.8,
+  "mutation_rate": 0.3,
+  "elite_count": 20,
+  "local_search_interval": 10,
+  "display": "iter"
+}
