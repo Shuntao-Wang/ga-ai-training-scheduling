@@ -1,4 +1,4 @@
-﻿
+
 # GA-AI-Training-Scheduling
 
 **Genetic Algorithm for Large-Scale AI Model Training Task Scheduling**
