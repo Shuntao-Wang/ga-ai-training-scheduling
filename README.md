@@ -48,7 +48,7 @@ objective_function.svg
 
 ### Constraints
 - Contiguous and non-overlapping NPU allocation per task
-- $1 \leq x_t \leq N_{\mathrm{total}} - \mathrm{total\_npu}_t + 1$
+- ![Constraints](images/x_constraints.svg)
 
 ## Dataset
 
