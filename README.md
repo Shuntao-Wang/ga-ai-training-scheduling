@@ -34,20 +34,20 @@ objective_function.svg
   <img src="images/objective_function.svg" alt="Objective Function">
 </div>
 
-- **Communication Time** (theoretical cumulative volume):
-  - HD mode:
+1. **Communication Time** (theoretical cumulative volume):
+- *HD mode*:
  
 <div align="center">
   <img src="images/HD_mode.svg" alt="HD mode">
 </div>
 
-  - Ring mode:
+- *Ring mode*:
 
 <div align="center">
   <img src="images/Ring_mode.svg" alt="Ring mode">
 </div>
 
-- **Penalty**: Number of overlapping NPUs + allocations exceeding total cluster size
+2. **Penalty**: Number of overlapping NPUs + allocations exceeding total cluster size
 
 ### Constraints
 - Contiguous and non-overlapping NPU allocation per task
