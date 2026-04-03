@@ -22,7 +22,11 @@ This project addresses the challenge of scheduling multiple AI training tasks on
 
 ### Decision Variables (Chromosome Encoding)
 Each solution is an integer vector:
-![Task vector](images/x_vector.svg)
+
+<div align="center">
+  <img src="images/x_vector.svg" alt="Task vector">
+</div>
+
 where $x_t$ is the **starting NPU index** for task $t$ (tasks are allocated contiguously).
 
 ### Objective Function
