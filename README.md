@@ -36,13 +36,16 @@ objective_function.svg
 
 - **Communication Time** (theoretical cumulative volume):
   - HD mode:
-    $$
-    \text{CommTime}_{\text{HD}} = \sum_{j=0}^{\log_2 DP_t - 1} \frac{1}{2^{j+1}}
-    $$
+ 
+<div align="center">
+  <img src="images/HD_mode.svg" alt="HD mode">
+</div>
+
   - Ring mode:
-    $$
-    \text{CommTime}_{\text{Ring}} = (DP_t - 1) \times \frac{1}{DP_t}
-    $$
+
+<div align="center">
+  <img src="images/Ring_mode.svg" alt="Ring mode">
+</div>
 
 - **Penalty**: Number of overlapping NPUs + allocations exceeding total cluster size
 
