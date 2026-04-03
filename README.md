@@ -22,9 +22,7 @@ This project addresses the challenge of scheduling multiple AI training tasks on
 
 ### Decision Variables (Chromosome Encoding)
 Each solution is an integer vector:
-$$
-\mathbf{x} = [x_1, x_2, \dots, x_T], \quad x_t \in \mathbb{Z}^+
-$$
+`x = [x_1, x_2, ..., x_T], x_t ∈ Z^+`
 where $x_t$ is the **starting NPU index** for task $t$ (tasks are allocated contiguously).
 
 ### Objective Function
