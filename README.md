@@ -1,4 +1,3 @@
-
 # GA-AI-Training-Scheduling
 
 **Genetic Algorithm for Large-Scale AI Model Training Task Scheduling**
@@ -16,8 +15,6 @@ This project addresses the challenge of scheduling multiple AI training tasks on
 
 **Keywords**: Genetic Algorithm, Task Scheduling, AI Training, Clos Network, Communication Conflict, Makespan Minimization
 
-
-
 ## Mathematical Model
 
 ### Decision Variables (Chromosome Encoding)
@@ -30,9 +27,12 @@ Each solution is an integer vector:
 where $x_t$ is the **starting NPU index** for task $t$ (tasks are allocated contiguously).
 
 ### Objective Function
-$$
-\min f(\mathbf{x}) = \sum_{t=1}^T \text{CommTime}(t, x_t) + 10000 \times \text{Penalty}(\mathbf{x})
-$$
+
+objective_function.svg
+
+<div align="center">
+  <img src="images/objective_function.svg" alt="Objective Function">
+</div>
 
 - **Communication Time** (theoretical cumulative volume):
   - HD mode:
