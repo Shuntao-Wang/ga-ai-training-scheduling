@@ -113,7 +113,7 @@ ga-ai-training-scheduling/
 │   └── dataset/               # 256, 512, 12288 folders
 ├── src/
 │   ├── main.m                 # Main entry point
-│   ├── ga_runner.m
+│   ├── ga_runner.m            # Genetic Algorithm Implementation
 │   ├── fitness.m
 │   └── utils/                 # Load tasks, comm time, local search
 ├── results/                   # Auto-generated plots & logs
