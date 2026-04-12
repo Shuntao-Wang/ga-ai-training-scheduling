@@ -28,8 +28,6 @@ where $x_t$ is the **starting NPU index** for task $t$ (tasks are allocated cont
 
 ### Objective Function
 
-objective_function.svg
-
 <div align="center">
   <img src="images/objective_function.svg" alt="Objective Function">
 </div>
